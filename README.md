@@ -2,6 +2,7 @@
 🚀Instructions to run
 1.	If docker desktop is not installed, install it
 2.	Run in vscode teminal:
+3.	
 docker pull kavi12345678/diabetes-model:latest
 
 docker run -p 8080:5000 kavi12345678/diabetes-model:latest
