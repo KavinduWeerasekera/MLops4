@@ -3,18 +3,26 @@
 1.	If docker desktop is not installed, install it
 2.	Run in vscode teminal:
 docker pull kavi12345678/diabetes-model:latest
+
 docker run -p 8080:5000 kavi12345678/diabetes-model:latest
+
 cd website
+
 npm run dev
 
 # If you are Not using docker
-run in terminal:
+1. run in terminal:
+
 cd website
+
 npm run dev
 
-Then split the terminal and run:
+2. Then split the terminal and run:
+   
 cd src
+
 cd backend
+
 python app.py
 
 
