@@ -1,3 +1,5 @@
+# Dockerfile
+
 FROM python:3.10-slim
 
 WORKDIR /app
@@ -7,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "website/src/backend/app.py"]
+CMD ["python", "app.py"]
